@@ -23,6 +23,6 @@ apt-get install git
 # install airsonos
 npm install airsonos -g
 
-# run airsonos on boot
-echo 'sudo /usr/bin/airsonos &' >> /etc/rc.local
+# run airsonos on boot, add line to /etc/rc.local
+sudo /usr/local/bin/airsonos &
 ```
